@@ -1,0 +1,53 @@
+<style>
+    .f-info-socials a {
+      position: relative;
+      display: inline-block;
+    }
+  
+    .f-info-socials a:hover::after {
+      content: attr(data-tooltip);
+      position: absolute;
+      bottom: 100%; /* Above the icon */
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #333;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+      white-space: nowrap;
+      font-size: 12px;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+  
+    .f-info-socials a:hover::after {
+      opacity: 1;
+    }
+  </style>
+
+
+<footer>
+    <div class="f-info">
+        <div class="f-info-socials">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a
+             href="https://github.com/ashutosh606" target="_blank" aria-label="github">
+             <i class="fa-brands fa-square-github"></i>
+            </a>
+
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ashutosh-kumar-1b1356222/" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+        <div class="f-info-brand">&copy;StayNest Private Limited</div>
+        <div class="f-info-links">
+            <a href="/privacy">Privacy</a>
+            <a href="/term">Terms</a>
+        </div>
+    </div>
+</footer>
