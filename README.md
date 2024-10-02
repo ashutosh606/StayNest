@@ -1,52 +1,74 @@
-# StayNest
+# 🌍 StayNest: Your Travel Booking Companion
 
-A full-stack travel booking application allowing users to create, manage, and review accommodation listings. Built with a robust backend using Node.js, Express, and MongoDB, alongside interactive front-end features. The project focuses on user authentication, CRUD operations, and secure data management.
+StayNest is a full-stack travel booking application designed to provide users with a seamless platform for creating, managing, and reviewing accommodation listings. It features user authentication, CRUD operations, interactive maps, and secure image management—delivering a rich, user-friendly experience for travelers and property managers alike.
 
-## 🛠️ Technologies & Packages Used:
+---
+
+## 🚀 Live Demos:
+
+- [**StayNest Live Demo**](https://staynest-19zp.onrender.com/listings)
+
+---
+
+## 🛠️ Tech Stack & Packages:
+
+### Backend:
 - **MongoDB**: NoSQL database for data storage
-- **Express.js**: Web framework for Node.js
 - **Node.js**: JavaScript runtime environment
+- **Express.js**: Web framework for Node.js
 - **Passport.js**: User authentication middleware
+- **Mongoose**: MongoDB object modeling
+- **Joi**: Data validation
+
+### Frontend:
+- **EJS**: Templating engine for dynamic rendering
+
+### Other Tools:
+- **Multer**: Middleware for handling file uploads
 - **Cloudinary**: Image storage and delivery
 - **Mapbox**: Interactive maps for location visualization
-- **Connect Flash**: Flash messages middleware
-- **Connect Mongo**: MongoDB session storage
-- **Cookie Parser**: Middleware to parse cookies
-- **Dotenv**: Environment variable management
-- **EJS**: Template rendering engine
+- **Connect Flash**: Middleware for flash messages
+- **Cookie Parser**: Parse and handle cookies
+- **Dotenv**: For environment variable management
 - **Express Session**: Middleware for session handling
-- **Joi**: Data validation library
-- **Mongoose**: MongoDB object modeling tool
-- **Multer**: Middleware for file uploads
-- **Passport Local**: Local authentication strategy
-- **Passport Local Mongoose**: Mongoose plugin for simplifying user authentication
+
+---
 
 ## 🌟 Key Features:
-- **User Authentication**: Secure login, logout, and user profile management
-- **CRUD Operations**: Create, read, update, and delete listings
-- **Review System**: Users can add and delete reviews
-- **Account Management**: Manage user accounts, update passwords
-- **User Data Security**: Password hashing and encryption for data security
-- **Interactive Maps**: Utilize Mapbox for visualizing locations
-- **Image Management**: Cloudinary for image upload and storage
 
-## 🚧 Challenges & Solutions:
-Encountered challenges with data handling, especially concerning scalability and data synchronization. These issues were solved by refining backend architecture, ensuring efficient data flow and session management.
+StayNest brings together a range of powerful features for users:
+
+- **User Authentication**: Secure login, logout, and profile management
+- **CRUD Operations**: Add, view, edit, and delete accommodation listings
+- **Review System**: Leave and manage reviews on listings
+- **Account Management**: Manage user accounts, update passwords
+- **Interactive Maps**: Visualize listing locations using **Mapbox**
+- **Image Management**: Upload and store images with **Cloudinary**
+- **Data Security**: Secure password hashing and encryption
+
+---
 
 ## 📸 Screenshots:
 
-![Screenshot 1](https://github.com/user-attachments/assets/14de1db2-2817-41c7-bc76-cd0b549d290b)
-![Screenshot 2](https://github.com/user-attachments/assets/ff60b3c8-3fca-4260-8a6d-b522bab00491)
-![Screenshot 3](https://github.com/user-attachments/assets/4324b892-107a-41a7-ba40-86994a10edaf)
-![Screenshot 4](https://github.com/user-attachments/assets/1494bf6f-4cde-43b1-9eb3-ac2c5b940407)
-![Screenshot 5](https://github.com/user-attachments/assets/1dbde285-1bb4-4f93-9bd9-7e98d4c7fc7f)
+### Home Page:
+<img width="1431" alt="StayNest Home Page" src="https://github.com/user-attachments/assets/87ce1526-44f4-4dec-a366-42f044198159">
 
-## 🚀 Live Demo:
+### Listings Page:
+<img width="1430" alt="StayNest Listings Page" src="https://github.com/user-attachments/assets/c4daf78f-5c81-4453-b16d-16a8f7d84719">
 
-Check out the live demo of the project at [StayNest Live Demo](https://staynest-19zp.onrender.com/listings).
+### Listing Details:
+<img width="1433" alt="StayNest Listing Details" src="https://github.com/user-attachments/assets/75e1f949-a395-4a8c-8711-574837f71673">
 
-## 💻 How to Run This Project:
+### Review Section:
+<img width="1432" alt="StayNest Review Section" src="https://github.com/user-attachments/assets/63b634ef-eca6-49df-a2ad-562718dff49f">
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/staynest.git
+### User Profile:
+<img width="1436" alt="StayNest User Profile" src="https://github.com/user-attachments/assets/aa7879ac-b20c-4c1b-a307-4d4e5c1aa07f">
+
+---
+
+## 🚧 Challenges & Solutions:
+
+Encountered challenges with data handling, especially concerning scalability and data synchronization. These issues were solved by refining backend architecture, ensuring efficient data flow and session management.
+
+---
