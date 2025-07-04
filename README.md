@@ -6,7 +6,7 @@ StayNest is a full-stack travel booking application designed to provide users wi
 
 ## 🚀 Live Demos:
 
-- [**StayNest Live Demo**](https://staynest-19zp.onrender.com/listings)
+- [**StayNest Live Demo**]([https://staynest-19zp.onrender.com/listings](https://staynest-19zp.onrender.com/listings))
 
 ---
 
